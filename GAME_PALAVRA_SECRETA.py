@@ -38,4 +38,20 @@ while True:
         print('A palavra era', palavra_formada)
         print('Tentativas: ', qtd_tentativas)
         break
-   
+  ''' 
+    Utilizei 3 perfil para teste
+  1 jovem 
+  2 meia idade 
+  3 mais idade 
+  
+  o número 3 teve mais dificuldades de descobri sobre o que era , sem saber uma dica , 
+após a dica 'jogo da forca , foi se inicando uma interação melhor mais ainda com dificuldades 
+ tentativas : 18.'''
+
+'''o numero 1, não teve dificuldades para entender o jogo , e muita dificuldade com a acertividade de tentativas 
+tentativas : 34.'''
+
+'''o numero 2 , não teve dificuldade para entender o jogo e , usou de estrategias para facilitar a acertividade 
+tentativas : 11 .'''
+  
+''' O Objetivo foi a comprensão do while e a forma mais pratica do if/ elif/else/ continue/ break    '''
