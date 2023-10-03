@@ -1,3 +1,4 @@
+
 nome = "Samantha"
 sobrenome = 'Lobo'
 idade = 30
