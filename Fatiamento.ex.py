@@ -1,3 +1,6 @@
+''' Nesse exercicio , eu mostro meus conhecimentos básico como o Fatiamnto de string [i:f:p][::] e a função len que retorna a quantidade de caracteres da string. '''
+
+
 nome = input ("Digite o seu nome:")
 idade = input('Digite sua idade:')
 
