@@ -1,3 +1,4 @@
+''' Esse código apresenta uma calculadora de indice e massa corporea '''
 #Traga no retorno o seguinte 'seunome ,tem x altura , pesa x quilos , e seu imc é x
 
 nome = 'Samantha Lobo'
