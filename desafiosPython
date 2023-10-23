@@ -1,0 +1,98 @@
+# Essa pasta tem como objetivo ajudar e auxiliar na prática , com exercicios e desafios , que ajudam em 100% estudantes que estão entrando 
+# no mercado de trabalho e com inseguranças de trabalhos e projetos reais . Acredito e é comprovado,  o que faz o profissional se desenvolver 
+# é durante a prática de tal. Ajude para ser ajudado ! 
+# Abaixo alguns desafios DE LINGUAGEM PYTHON COPIEM AS PERGUNTAS , e respostas e depois tente sozinho e compare com a acertividade das questoes :
+
+# Calcular a média de uma lista de números:
+# Crie um programa que receba uma lista 
+#de números e retorne a média dos valores presentes na lista.
+#
+'''
+numero = (10)
+media = (numero + numero / numero) 
+print(media)
+
+numero = [1,2,3,4,5,6,7,8,9]   
+media = sum (numero) / len(numero)
+print(media)
+
+numero = [10,11,12,13,14,15,16,27,18,19.20]
+media = sum (numero) / len(numero)
+print(media)
+ 
+ #Verificar se um número é par ou ímpar: Desenvolva um
+ #  programa que receba um número como entrada e determine se ele é par ou ímpar.
+
+numero = int(3) 
+resto = numero % 2 
+
+if resto == 0:
+        print('Seu número é PAR')
+if resto == 1:
+         print('seu numero é IMPAR')
+'''
+
+#Converter temperatura de Celsius para Fahrenheit: Escreva um programa que converta 
+#uma temperatura em graus Celsius para Fahrenheit.
+'''
+def C_para_F(C):
+    F = (C*9/5) + 32
+    return F
+
+def F_para_C(F):
+    C = (F-32)*5/9
+    return C
+
+
+def menu():
+    while True:
+        op = int(input('1. Celsius para Farenheit: \n' +
+                       '2. Farenheit para Celsius: '))
+
+        if op==1:
+            C=int( input('Graus Celsius: ') )
+            print('Convertido: ', C_para_F(C),' graus Farenheit\n')
+        elif op==2:
+            F=int( input('Graus Farenheit: ') )
+            print('Convertido: ', F_para_C(F),' graus Celsius\n')
+        else:
+            print('Opção inválida')
+menu()
+'''
+#Calcular o fatorial de um número: Crie uma função que calcule o
+#  fatorial de um número dado como entrada.
+'''
+numero = int(input("Fatorial de: ") )
+
+resultado=1
+count=1
+
+while count <= numero:
+    resultado *= count
+    count += 1
+
+print(resultado)
+'''
+
+#Verificar se uma palavra é um palíndromo: Implemente um programa que
+#verifique se uma palavra é um palíndromo, ou seja, se pode ser lida da
+#mesma forma tanto da esquerda para a direita quanto da direita para a esquerda.
+"""
+def verificar_palindromo(str):
+    flag = False
+
+    string_invertida = (str[::-1])
+
+    if (str == string_invertida):
+        flag = True 
+
+    return flag
+    
+palavra1 = "Assa"
+print(verificar_palindromo(palavra1))
+
+palavra2 = "3assa3"
+print(verificar_palindromo(palavra2))
+
+palavra3 = "asa"
+print(verificar_palindromo(palavra3))
